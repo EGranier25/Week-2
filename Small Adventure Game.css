@@ -29,4 +29,14 @@ button
 body
 {
     background-color: #361457;
+
+}
+
+div#results
+{
+    text-align: left;
+    font-family: 'Verdana', sans-serif;
+    font-size: 22px;
+    color: #ffffff;
+    margin-top: 20px;
 }
