@@ -1,11 +1,17 @@
 function choosePathOne()
 {
     var choosePathOne = 0; /*Variable for choosing path one*/
+    Math.floor(Math.random() * 2); /*Generates a random number between 0 and 1*/
 
     if (choosePathOne === 0) 
         {
             document.getElementById("results").innerHTML = "You chose to climb the tree!"; /*Displays user choice in the results div*/
         }
+    else (choosePathOne === 1)
+        {
+            document.getElementById("results").innerHTML = "You chose to climb the tree!"; /*Displays user choice in the results div*/
+        }
+    
 
 alert("You climbed up the ladder and found a juicy apple! Yummy!");
 } /*Function for choosing the path up the tree*/
@@ -13,8 +19,13 @@ alert("You climbed up the ladder and found a juicy apple! Yummy!");
 function choosePathTwo()
 {   
     var choosePathTwo = 1; /*Variable for choosing path two*/
+    Math.floor(Math.random() * 2); /*Generates a random number between 0 and 1*/
 
     if (choosePathTwo === 1) 
+        {
+            document.getElementById("results").innerHTML = "You chose to go down the hole!"; /*Displays user choice in the results div*/
+        }
+    else (choosePathTwo === 0)
         {
             document.getElementById("results").innerHTML = "You chose to go down the hole!"; /*Displays user choice in the results div*/
         }
